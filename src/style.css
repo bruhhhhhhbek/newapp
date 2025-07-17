@@ -1,140 +1,169 @@
+        :root{
+          background: #f8e9b4;
+        }
         body {
-            margin: 0;
-            font-family: 'Fredoka', sans-serif;
-            
-            color: #4A2C1D;
-        
+          margin: 0;
+          font-family: 'Fredoka', sans-serif;
+
+          color: #4A2C1D;
+
         }
 
         header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 40px;
-            background-color: #fce28c;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px 40px;
+          background-color: #fce28c;
         }
 
+        .content-wrapper {
+          background: #f2d981;
+          max-width: 1080px;
+          margin: 40px auto;
+          border-radius: 20px;
+          overflow: hidden;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .section,
+        .section2,
+        /* footer {
+          background: transparent;
+        } */
+
         header h1 {
-            display: flex;
-            align-items: center;
-            font-size: 28px;
+          display: flex;
+          align-items: center;
+          font-size: 28px;
         }
 
         header h1 img {
-            width: 60px;
-            margin-right: 10px;
-            
+          width: 60px;
+          margin-right: 10px;
+
         }
 
         nav a {
-            margin-left: 20px;
-            text-decoration: none;
-            color: #4A2C1D;
-            font-size: 18px;
+          margin-left: 20px;
+          text-decoration: none;
+          color: #4A2C1D;
+          font-size: 18px;
         }
 
         .hero {
-            text-align: center;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-            background: #f8e9b4;
-         
+          text-align: center;
+          padding: 40px 20px;
+          display: flex;
+          justify-content: center;
+          background: #f8e9b4;
+
         }
 
         .hero img {
-            margin-left: 100px;
-            width: 290px;
-            transition: transform 0.3s ease;
+          margin-left: 100px;
+          width: 350px;
+          transition: transform 0.3s ease;
         }
-        .innerhero{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            
+
+        .innerhero {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
         }
-        
+
         .hero img:hover {
-            transform: scale(1.05) rotate(-2deg);
+          transform: scale(1.05) rotate(-2deg);
         }
+
         .section img:hover {
-            transform: scale(1.05) rotate(-2deg);
+          transform: scale(1.05) rotate(-2deg);
         }
 
         .innerhero h2 {
-            font-size: 57px;
-            margin: 20px 0 10px;
-            color: #3B1E14;
-            /* margin-left: -300px; */
+          font-size: 75px;
+          margin: 20px 0 10px;
+          color: #3B1E14;
+          /* margin-left: -300px; */
         }
-        .innerhero p{
-            font-size: 26px;
-            /* margin-left: -300px; */
+
+        .innerhero p {
+          font-size: 26px;
+          /* margin-left: -300px; */
         }
 
         .section {
-            background: #f8e9b4;
-            padding: 40px 20px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            gap: 100px;
+          background: #e4cf83;
+          padding: 40px 20px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          gap: 100px;
         }
-        .section img{
-            width: 290px;
-            transition: transform 0.3s ease;
+        
+
+        
+        .section img {
+          width: 290px;
+          transition: transform 0.3s ease;
         }
+
         .section h3 {
-            font-size: 44px;
-            margin-bottom: 15px;
+          font-size: 44px;
+          margin-bottom: 15px;
         }
-        .section p{
-            font-size: 18px;
+
+        .section p {
+          font-size: 18px;
         }
-        .section2{
-            background: #f8e9b4;
-            padding: 40px 20px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+
+        .section2 {
+          background: #e4cf83;
+          padding: 40px 20px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
         }
-        .section2 h3{
-            font-size: 42px;
+        
+        .section2 h3 {
+          font-size: 42px;
         }
+
         .fruits {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin: 30px 0;
-            flex-wrap: wrap;
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+          margin: 30px 0;
+          flex-wrap: wrap;
         }
 
         .fruit {
-            text-align: center;
-            transition: transform 0.3s ease;
+          text-align: center;
+          transition: transform 0.3s ease;
         }
 
         .fruit:hover {
-            transform: scale(1.1);
+          transform: scale(1.1);
         }
 
         .fruit img {
-            width: 120px;
+          width: 120px;
         }
 
         ul {
-            list-style: disc;
-            padding-left: 20px;
-            text-align: left;
-            display: inline-block;
-            margin-top: 20px;
-            font-size: 20px;
+          list-style: disc;
+          padding-left: 20px;
+          text-align: left;
+          display: inline-block;
+          margin-top: 20px;
+          font-size: 20px;
         }
 
         footer {
-            text-align: center;
-            padding: 30px 20px;
-            font-size: 14px;
-            color: #777;
+          text-align: center;
+          padding: 30px 20px;
+          font-size: 14px;
+          color: #777;
         }
